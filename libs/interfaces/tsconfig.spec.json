@@ -10,6 +10,6 @@
     "**/*.test.ts",
     "**/*.spec.ts",
     "**/*.d.ts",
-    "../../libs/**/*.d.ts"
+    "src/shared-kernel.d.ts"
   ]
 }

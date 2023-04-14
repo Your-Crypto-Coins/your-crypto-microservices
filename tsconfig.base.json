@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@your-crypto/contracts": ["libs/contracts/src/index.ts"],
+      "@your-crypto/interfaces": ["libs/interfaces/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

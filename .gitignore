@@ -37,3 +37,12 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# envs
+envs/*
+
+# But not example file
+!envs/.example.env
+
+# docker
+pgdata
